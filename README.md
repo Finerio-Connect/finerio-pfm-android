@@ -6,7 +6,7 @@ This repository contains a subset of the Finerio Connect PFM UI Android SDK exam
 
 ### Installation
 
-1. Download the [latest PFM UI SDK release](https://https://github.com/Finerio-Connect/sdks-pfm-ui-android) zip file.
+1. Download the [latest PFM UI SDK release](https://github.com/Finerio-Connect/finerio-pfm-android/releases/latest) zip file.
 2. Unzip and take the `com` folder (containing the SDK's local maven dependencies) and put it in `~/.m2/repository/`.
 3. Add `maven url` as repository in your root level settings.gradle file.
 
@@ -14,7 +14,7 @@ This repository contains a subset of the Finerio Connect PFM UI Android SDK exam
 
 Add next configuration to project `settings.gradle`:
 
-```settings.gradle
+```gradle
     repositories {
         maven {
             url 'C:/Users/user_name/.m2/repository'
@@ -27,7 +27,7 @@ Add next configuration to project `settings.gradle`:
 
 Add next configuration to project `build.gradle`:
 
-```build.gradle
+```gradle
 buildscript {
     ext.kotlin_version = "1.5.30"
     ...
@@ -64,7 +64,8 @@ dependencies {
 Add next permission into manifest.xml:
 
 ```xml
-<uses-permission android:name="android.permission.INTERNET"/> ```
+<uses-permission android:name="android.permission.INTERNET"/>
+```
 
 #### **Import the module:**
 
