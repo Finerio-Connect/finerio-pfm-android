@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finerioconnect.fineriopfmexample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".summarysdk.SummarySDKActivity"
+            android:exported="true"
+            android:label="SummarySDK Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accoundsdk.AccountSDKActivity"
+            android:exported="true"
+            android:label="AccountSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accoundsdk.BanksSDKActivity"
+            android:exported="true"
+            android:label="BanksSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accoundsdk.CreateCredentialSDKActivity"
+            android:exported="true"
+            android:label="CreateCredentialActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".accoundsdk.AccountDetailSDKActivity"
+            android:exported="true"
+            android:label="BanksSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".analysissdk.AnalysisSDKActivity"
+            android:exported="true"
+            android:label="AnalysisSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".analysissdk.AnalysisDetailSDKActivity"
+            android:exported="true"
+            android:label="AnalysisDetailSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transactionsdk.TransactionSDKActivity"
+            android:exported="true"
+            android:label="TransactionSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".transactionsdk.TransactionDetailSDKActivity"
+            android:exported="true"
+            android:label="TransactionDetailSDKActivity Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".budgetssdk.BudgetsSDKActivity"
+            android:exported="true"
+            android:label="Budgets Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".budgetssdk.BudgetsDetailSDKActivity"
+            android:exported="true"
+            android:label="Budgets Detail Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".budgetssdk.BudgetsCreateSDKActivity"
+            android:exported="true"
+            android:label="Budgets Create Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".budgetssdk.BudgetsCategorySDKActivity"
+            android:exported="true"
+            android:label="Category Example"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorycomponent.CategoryOneSelectionActivity"
+            android:exported="true"
+            android:label="Category Component One Selection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorycomponent.CategoryMultiSelectionActivity"
+            android:exported="true"
+            android:label="Category Component Multi Selection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorycomponent.CategoryOneSubcategoryActivity"
+            android:exported="true"
+            android:label="Category Component One Subcategory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorycomponent.CategoryTypesActivity"
+            android:exported="true"
+            android:label="Category Component Types"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".categorycomponent.CategoryMultiSelectionFilteredActivity"
+            android:exported="true"
+            android:label="Multi Selection with filters"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
