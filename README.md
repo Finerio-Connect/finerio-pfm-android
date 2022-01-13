@@ -50,12 +50,12 @@ android {
 
 dependencies {
     //SDK's
-    implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.0'
-    implementation 'com.finerioconnect.sdk.summary:summary-ui:1.0.0'
-    implementation 'com.finerioconnect.sdk.analysis:analysis-ui:1.0.0'
-    implementation 'com.finerioconnect.sdk.transaction:transaction-ui:1.0.0'
-    implementation 'com.finerioconnect.sdk.budget:budget-ui:1.0.0'
-    implementation 'com.finerioconnect.sdk.account:account-ui:1.0.0'
+    implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.2'
+    implementation 'com.finerioconnect.sdk.summary:summary-ui:1.0.1'
+    implementation 'com.finerioconnect.sdk.analysis:analysis-ui:1.0.1'
+    implementation 'com.finerioconnect.sdk.transaction:transaction-ui:1.0.1'
+    implementation 'com.finerioconnect.sdk.budget:budget-ui:1.0.1'
+    implementation 'com.finerioconnect.sdk.account:account-ui:1.0.1'
 }
 ```
 
