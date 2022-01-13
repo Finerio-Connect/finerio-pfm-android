@@ -33,8 +33,8 @@ allprojects {
 Edit your app `build.gradle` and specify the dependencies:
 
 ```gradle
-implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.0'
-implementation 'com.finerioconnect.sdk.summary:transaction-ui:1.0.0'
+implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.2'
+implementation 'com.finerioconnect.sdk.summary:transaction-ui:1.0.1'
 ```
 
 ## Pre-requirements
