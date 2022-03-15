@@ -34,8 +34,8 @@ allprojects {
 Edit your app `build.gradle` and specify the dependencies:
 
 ```gradle
-implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.2'
-implementation 'com.finerioconnect.sdk.analysis:analysis-ui:1.0.1'
+implementation 'com.github.Finerio-Connect:finerio-connect-sdk-android:1.0.3'
+implementation 'com.finerioconnect.sdk.analysis:analysis-ui:1.0.2'
 ```
 
 ## Pre-requirements
